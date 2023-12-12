@@ -1,0 +1,32 @@
+:root {
+    --darkblue:#2C3E50;
+    --red:#E74C3C;
+    --gray:#BDC3C7;
+} 
+body {
+    margin:0;
+    background-color: rgb(255, 255, 255);
+}
+.header-box {
+    position:sticky;
+    background-color: var(--darkblue);
+    left:0;
+    right: 0;
+    top: 0;
+    z-index:100;
+    padding:0.5em;
+}
+.logo{
+    margin-left:1em;
+    margin-top:0.2em;
+}
+.search {
+    background-color: rgb(233, 233, 233);
+    border: solid var(--darkblue) 1px;
+    border-radius: 0.8em;
+    margin-left:2em;
+    width:40%;
+    height: 1.8em;
+    position: absolute;
+    top:1em;
+}
